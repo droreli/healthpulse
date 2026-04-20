@@ -1,0 +1,36 @@
+{
+  "data": {
+    "metrics": [
+      {
+        "name": "heart_rate",
+        "units": "count/min",
+        "data": [
+          {
+            "date": "bad-date",
+            "Avg": 72
+          },
+          {
+            "date": "2026-04-10 08:30:00 +0300",
+            "Avg": -5
+          },
+          {
+            "date": "2026-04-10 09:30:00 +0300",
+            "Avg": 70,
+            "Min": 55,
+            "Max": 82
+          }
+        ]
+      },
+      {
+        "name": "step_count",
+        "units": "count",
+        "data": [
+          {
+            "date": "2026-04-10 09:00:00 +0300",
+            "qty": 5000
+          }
+        ]
+      }
+    ]
+  }
+}

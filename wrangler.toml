@@ -1,0 +1,22 @@
+name = "healthpulse"
+main = "src/cloudflare/worker.ts"
+compatibility_date = "2026-04-15"
+compatibility_flags = ["nodejs_compat"]
+routes = [
+  { pattern = "healthpulse.droreli.com/*", zone_name = "droreli.com" },
+  { pattern = "healthpluse.droreli.com/*", zone_name = "droreli.com" }
+]
+
+[assets]
+directory = "./dist/client"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = true
+
+[[durable_objects.bindings]]
+name = "USER_STORE"
+class_name = "UserStore"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["UserStore"]

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "workouts": [
+      {
+        "id": "ABC123-DEF456",
+        "name": "Running",
+        "start": "2026-04-09 06:30:00 +0300",
+        "end": "2026-04-09 07:05:00 +0300",
+        "duration": 2100,
+        "activeEnergyBurned": { "qty": 412, "units": "kcal" },
+        "distance": { "qty": 5.21, "units": "km" },
+        "avgHeartRate": { "qty": 148, "units": "bpm" },
+        "maxHeartRate": { "qty": 172, "units": "bpm" },
+        "heartRateData": [
+          {
+            "date": "2026-04-09 06:30:00 +0300",
+            "Min": 95,
+            "Avg": 110,
+            "Max": 118,
+            "units": "bpm"
+          },
+          {
+            "date": "2026-04-09 06:31:00 +0300",
+            "Min": 118,
+            "Avg": 135,
+            "Max": 142,
+            "units": "bpm"
+          },
+          {
+            "date": "2026-04-09 06:32:00 +0300",
+            "Min": 140,
+            "Avg": 152,
+            "Max": 160,
+            "units": "bpm"
+          }
+        ],
+        "heartRateRecovery": [
+          {
+            "date": "2026-04-09 07:06:00 +0300",
+            "qty": 145,
+            "units": "bpm"
+          },
+          {
+            "date": "2026-04-09 07:07:00 +0300",
+            "qty": 128,
+            "units": "bpm"
+          }
+        ],
+        "elevationUp": { "qty": 34, "units": "m" }
+      }
+    ]
+  }
+}
